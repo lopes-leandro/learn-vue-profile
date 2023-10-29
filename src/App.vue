@@ -5,7 +5,7 @@ import AppProfileDisplay from "./components/AppProfileDisplay.vue";
 import { reactive } from "vue";
 
 const formData = reactive({name: ""});
-function update(e) {
+function update(e: any) {
   formData.name = e.name;
 }
 </script>
