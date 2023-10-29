@@ -6,7 +6,7 @@ import AppProfileDisplay from "./components/AppProfileDisplay.vue";
 
 <template>
   <AppHeader />
-  <div>
+  <div class="flex flex-col md:flex-row">
     <AppProfileForm />
     <AppProfileDisplay />
   </div>
