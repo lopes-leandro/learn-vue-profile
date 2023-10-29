@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import AppHeader from "./components/AppHeader.vue";
-import AppProfileFormVue from "./components/AppProfileForm.vue";
+import AppProfileForm from "./components/AppProfileForm.vue";
+import AppProfileDisplay from "./components/AppProfileDisplay.vue";
 </script>
 
 <template>
   <AppHeader />
   <div>
-    <AppProfileFormVue />
+    <AppProfileForm />
+    <AppProfileDisplay />
   </div>
 </template>
 
